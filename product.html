@@ -1,0 +1,367 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>產品資訊</title>
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/style3.css" media="screen" />
+
+
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <nav class="nav"style="z-index: 100;">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="台灣立期科技股份有限公司" width="300px" style="padding-top:1.5em">
+
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="./index.html">首頁</a></li>
+                    <li><a href="./event.html">活動消息</a></li>
+                    <li><a href="./product.html">產品資訊</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+
+
+
+
+    <div>
+        <!-- just to make scrolling effect possible -->
+        <div class="container" style="background-color: white;">
+            <!-- Top box -->
+            <!-- Logo & Site Name -->
+
+
+            <main>
+
+                <div class="tm-paging-links">
+                    <nav>
+                        <ul>
+                            <li class="tm-paging-item"><a href="#" class="tm-paging-link active">Game</a></li>
+                            <li class="tm-paging-item"><a href="#" class="tm-paging-link">Computer</a></li>
+                            <li class="tm-paging-item"><a href="#" class="tm-paging-link">HomeTheater</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Gallery -->
+                <div class="row tm-gallery">
+                    <!-- gallery page 1 -->
+                    <div id="tm-gallery-page-game" class="tm-gallery-page">
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/xb3720_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">S-Video and Audio</h4>
+                                    <p class="tm-gallery-description">XBOX360 to S-Video and Stereo Audio Gaming Cable
+                                    </p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/xb3670_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">Scart</h4>
+                                    <p class="tm-gallery-description">XBOX360 to Scart Gaming Cable</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/xb3690_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">Component and Audio</h4>
+                                    <p class="tm-gallery-description">XBOX360 to Component Video and Stereo Audio Gaming
+                                        Cable</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/tg3650_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">Composite and Audio</h4>
+                                    <p class="tm-gallery-description">Wii to Composite and Stereo Audio Gaming Cable</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/tg2130_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">S-Video and Audio</h4>
+                                    <p class="tm-gallery-description">PS3 to S-Video and Stereo Audio Gaming Cable</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/hdm1190_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">HDMI A to HDMI D</h4>
+                                    <p class="tm-gallery-description">34/36/38/40 AWG, TC Conductors Molded Plug</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/hdm1310_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">Ultra-thin Active HDMI</h4>
+                                    <p class="tm-gallery-description">HDMI A to HDMI C Cable, TC Conductors, Teflon
+                                        Insulation Modled Plug</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                    </div> <!-- gallery page 1 -->
+
+                    <!-- gallery page 2 -->
+                    <div id="tm-gallery-page-computer" class="tm-gallery-page hidden">
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/mini_displayport_to_vga_pic3.jpg"
+                                    alt="Image" class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">HDMI A(F)</h4>
+                                    <p class="tm-gallery-description">Mini DP to HDMI Type A (Female) adaptor, 200mm, 30
+                                        AWG, Foam PE</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/mini_displayport_to_hdmi_pic1.jpg"
+                                    alt="Image" class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">VGA(F)</h4>
+                                    <p class="tm-gallery-description">Mini DP to DB15(VGA, Female) adaptor, 200mm,
+                                        30AWG, Foam PE</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/mdp121_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">HDMI A(F)</h4>
+                                    <p class="tm-gallery-description">Mini DP to HDMI Type A (Female) adapter, 200mm, 30
+                                        AWG, Foam PE</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/disp20_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">DisplayPort Cable</h4>
+                                    <p class="tm-gallery-description">DisplayPort to DisplayPort Cable, SPC Conductors
+                                        Two-short Molded Plug</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/disp10_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">DisplayPort Cable</h4>
+                                    <p class="tm-gallery-description">DisplayPort to DisplayPort Cable, SPOCC/OFC
+                                        Conductors ABS Assembled Plug</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/usb3041_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">USB 3.0 A to B</h4>
+                                    <p class="tm-gallery-description">USB3.0 A to A Cable, Foamed PE Insulation</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div> <!-- gallery page 2 -->
+
+                    <!-- gallery page 3 -->
+                    <div id="tm-gallery-page-hometheater" class="tm-gallery-page hidden">
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/hdm560_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">HDMI A to HDMI A</h4>
+                                    <p class="tm-gallery-description">23/26/28/30 AWG, OFC Conductors Molded Plug</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/hdm990_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">HDMI A to HDMI A</h4>
+                                    <p class="tm-gallery-description">23/24/28 AWG, OFC Conductors Double-short Molded
+                                        Plug</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/hdm1010_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">HDMI A to HDMI A</h4>
+                                    <p class="tm-gallery-description">26/28 AWG, SPC Conductors Double-shot Moloded Plug
+                                    </p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/hdm1040_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">HDMI A to HDMI A</h4>
+                                    <p class="tm-gallery-description">24/28/30 AWG, PCOCC-PRO Conductors Die-cast Metal
+                                        Plug</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/hdm1070_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">HDMI A to HDMI A</h4>
+                                    <p class="tm-gallery-description">26/28/30 AWG, OFC Conductors Water transfer
+                                        Printing Plug</p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                            <figure>
+                                <img src="http://www.maxcable.com.tw/public/images/upload/ar8231_pic1.jpg" alt="Image"
+                                    class="img-fluid tm-gallery-img" />
+                                <figcaption>
+                                    <h4 class="tm-gallery-title">RCA Audio Interconnect</h4>
+                                    <p class="tm-gallery-description">Audio Cable, 2RCA to 2RCA, Foamed PE Insulation
+                                    </p>
+
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                    </div> <!-- gallery page 3 -->
+                </div>
+                <div class="tm-section tm-container-inner">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <figure class="tm-description-figure">
+                                <img src="http://www.maxcable.com.tw/public/images/upload/dv9031_pic1.jpg" alt="Image"
+                                    class="img-fluid" />
+                            </figure>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tm-description-box">
+                                <h4 class="tm-gallery-title">Component Video</h4>
+                                <p class="tm-mb-45">Component Video Cable, 3RCA to 3RCA, Foamed PE Insulation</p>
+                                <a href="http://www.maxcable.com.tw/product/pl"target="blank" class="tm-btn tm-btn-default tm-right">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                // Handle click on paging links
+                $('.tm-paging-link').click(function (e) {
+                    e.preventDefault();
+
+                    var page = $(this).text().toLowerCase();
+                    $('.tm-gallery-page').addClass('hidden');
+                    $('#tm-gallery-page-' + page).removeClass('hidden');
+                    $('.tm-paging-link').removeClass('active');
+                    $(this).addClass("active");
+                });
+            });
+        </script>
+
+
+    </div>
+    <footer style="background-color:rgb(43, 44, 43);height: 100px;">
+
+    </footer>
+
+</body>
+
+
+
+
+
+</html>

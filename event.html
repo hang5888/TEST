@@ -1,0 +1,318 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>活動消息</title>
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/style2.css" media="screen" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+    <style>
+        p{
+            font-size:17px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav class="nav"style="z-index: 100;">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="台灣立期科技股份有限公司" width="300px" style="padding-top:1.5em">
+
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="./index.html">首頁</a></li>
+                    <li><a href="./event.html">活動消息</a></li>
+                    <li><a href="./product.html">產品資訊</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+
+
+
+
+    <body class="w3-light-grey">
+
+
+
+        <!-- Grid -->
+        <div class="w3-row w3-padding w3-border">
+
+            <!-- Blog entries -->
+            <div class="w3-col l8 s12">
+
+                <!-- Blog entry -->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>RoHS環境保護政策</h3>
+                        <h5><span class="w3-opacity">2020-05-19 13:35:59</span></h5>
+                    </div>
+
+                    <div class="w3-justify">
+
+                        <p><strong>台灣立期科技正導入綠色供應鏈</strong> </p>
+                        <p>台灣立期科技積極參與保護環境的任務，落實電子電器設備特定有害化學和危險物質禁止使用，有效執行RoHS法案於企業中。業界供應商是綠色供應鏈中不可少的部份，台灣立期身為影音、傳輸線關鍵應用平台供應者，承諾與供應商共同分擔保護環境的責任。
+                        </p>
+                        <p class="w3-left"><button class="w3-button w3-white w3-border"
+                                onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <a href="http://www.maxcable.com.tw/news/post/29" target="blank">
+                            <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')"
+                                    id="myBtn"><b>View More >
+                                         </b> </span></button></p>
+                        </a>
+                        <p class="w3-clear"></p>
+                        <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                            <hr>
+
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Blog entry -->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>深圳立鉅2016年暑期實習結束</h3>
+                        <h5><span class="w3-opacity">2016-09-07 11:37:15</span></h5>
+                    </div>
+
+                    <div class="w3-justify">
+                        <img src="http://www.maxcable.com.tw/public/images/news/20160907.png" alt="" style="width:100%"
+                            class="w3-padding-16">
+
+                        <p>今年暑假在深圳立鉅廠可說是熱鬧滾滾，因為此次前來實習的台灣學子共有34位，包含台科大、雲科大、虎科大、聯合、
+                            高師大等不同系所的學生前來，領域也涵蓋專利、設計、工管、企管、自動化及電機等。這麼多的實習生對立鉅來說也是
+                            一大挑戰，因為無論是學生的食宿、生活起居及工作安排，注意事項都要比以往增加許多，而倉期董事長也親臨吩咐上下
+                            內部都需協調搭配，部門主管也必須每周與學生討論工作內容，讓學生能有所學習的回台灣。
+                            兩個月的時間說長不長，說短也不短，回想起學生剛到立鉅廠青澀模樣，到最後結訓報告的台風簡報能力，都明顯地大大
+                            增長，讓我們感到很欣慰。提供台灣學子有更多實務的經驗及增進世界視野，一直是公司持續執行實習的目的，也感謝這
+                            些學生這段期間的配合，期許他們未來能學業進步、精益求精。
+                        </p>
+                        <p class="w3-left"><button class="w3-button w3-white w3-border"
+                                onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                                <a href="http://www.maxcable.com.tw/news/post/27" target="blank"><p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>View More >
+                                     </b> </button></p></a>
+                        <p class="w3-clear"></p>
+
+                        <!-- Example of comment field -->
+                        <div id="demo2" style="display:none">
+                            <div class="w3-row">
+                                <hr>
+                                <div class="w3-col l2 m3">
+                                    <img src="/w3images/girl_train.jpg" style="width:90px;">
+                                </div>
+                                
+                            </div>
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                                    <img src="/w3images/girl.jpg" style="width:90px;">
+                                </div>
+                                <div class="w3-col l10 m9">
+                                    <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                                    <p>Love hats!!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog entry -->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>2016年深圳立鉅科技有限公司實習生開訓典禮</h3>
+                        <h5><span class="w3-opacity">2016-03-04 11:05:43</span></h5>
+                    </div>
+
+                    <div class="w3-justify">
+                        <img src="./images/X66fWi8.jpg" alt="" style="width:100%" class="w3-padding-16">
+                        
+                        <p>為深圳立鉅實習生開訓典禮，為了迎接學生前來實習，公司準備了學生一些生活所需，並派台灣同事細心照料，
+                            希望學生能盡早適應外地生活。公司也期盼學生此次前來能有所學、有所得，提早熟悉職場上的＂眉角＂。為此，公司也依就
+                            讀的系別，指派不同專題給學生學習體驗，並要求部門經理、主管親自指導、帶領學生解決問題。而此次實習也特別感謝虎尾
+                            科技大學　沈金鐘副校長、蔡明標主任及莊金煇老師等三位老師帶隊前來，讓學生平安抵達公司，開始體驗實習生活。
+                               　在開幕典禮中，倉期董事長特別提及：「公司非常歡迎各位學生前來立鉅實習，因來到大陸人生地不熟，最重要的事就
+                               是自身安全問題，父母、學校把你們放心交到立鉅手上，我們必須更有責任負責你們安全以及生活上大小事，所以同學有
+                               任何問題都可以找學長姐、主管或副總詢問，他們會盡力幫你們解決。」......</p>
+                        <p class="w3-left"><button class="w3-button w3-white w3-border"
+                                onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                       <a href="http://www.maxcable.com.tw/news/post/23" target="blank"> <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>View More >
+                                     </b> </button></p></a>
+                        <p class="w3-clear"></p>
+
+                        <!-- Example of comment field -->
+                        <div id="demo3" style="display:none">
+                            <hr>
+                            
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                                    <img src="/w3images/girl_hood.jpg" style="width:90px;">
+                                </div>
+                                <div class="w3-col l10 m9">
+                                    <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                                    <p>Cant wait for the runway to start!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- END BLOG ENTRIES -->
+            </div>
+
+            <!-- About/Information menu -->
+            <div class="w3-col l4">
+
+                <hr>
+
+                <!-- Posts -->
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4>熱門文章</h4>
+                    </div>
+                    <ul class="w3-ul w3-hoverable w3-white">
+                        <li class="w3-padding-16">
+                           <a href="http://www.maxcable.com.tw/news/post/20" target="blank">
+                            <span class="w3-large"><b>第二屆maxcable創意設計競賽抽獎</b></span>
+                            <br>
+                            <span>於FB粉絲團上舉辦分享活動，即可得到...</span>
+                        </li></a>
+                        <li class="w3-padding-16">
+                            <a href="http://www.maxcable.com.tw/news/post/18" target="blank">
+                            <span class="w3-large"><b>虎科「職涯規劃」博覽會</b></span>
+                            <br>
+                            <span>2015/11/25前往虎科參加「職涯規劃」博覽...</span>
+                        </li></a>
+                        <li class="w3-padding-16">
+                            <a href="http://www.maxcable.com.tw/news/post/13" target="blank">
+                            <span class="w3-large"><b>第二屆Maxcable創意設計競賽</b></span>
+                            <br>
+                            <span>創意設計競賽開跑了，為了讓更多莘莘學子能....</span>
+                        </li></a>
+                        <li class="w3-padding-16">
+                            <a href="http://www.maxcable.com.tw/news/post/14" target="blank">
+                            <span class="w3-large"><b>第二屆傑出大陸台商選拔－回饋鄉里獎</b></span>
+                            <br>
+                            <span>李董事長榮獲台北經營管理研究院主辦的「第二...</span>
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+
+                <!-- Advertising -->
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4>活動招募</h4>
+                    </div>
+                    <div class="w3-container w3-white">
+                        <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+                            <span class="w3-display-middle"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Tags -->
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4>Tags</h4>
+                    </div>
+                    <div class="w3-container w3-white">
+                        <p>
+                            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span
+                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">USB C to Lightning</span> <span
+                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">Durable Cable</span>
+                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Vertical Braiding</span> <span
+                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">Fabric</span> <span
+                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">Cable Charm</span>
+                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">傳輸線</span> <span
+                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">充電座</span> <span
+                                class="w3-tag w3-light-grey w3-small w3-margin-bottom">插座充電座</span>
+                            
+                        </p>
+                    </div>
+                </div>
+                <hr>
+
+                <hr>
+
+                <hr>
+
+                <!-- END About/Intro Menu -->
+            </div>
+
+            <!-- END GRID -->
+        </div>
+
+        <!-- END w3-content -->
+        </div>
+
+       
+
+
+
+        <script>
+            // Toggle between hiding and showing blog replies/comments
+            document.getElementById("myBtn").click();
+            function myFunction(id) {
+                var x = document.getElementById(id);
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+
+            function likeFunction(x) {
+                x.style.fontWeight = "bold";
+                x.innerHTML = "✓ Liked";
+            }
+        </script>
+
+        <footer style="background-color:rgb(43, 44, 43);height: 100px;">
+
+        </footer>
+
+    </body>
+
+
+
+
+
+</html>
